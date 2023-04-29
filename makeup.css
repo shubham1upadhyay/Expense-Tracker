@@ -62,6 +62,9 @@ table th{
     font-family: cursive, sans-serif;
     font-weight: 700;
 }
+.my-table{
+    width: 100%;
+}
 table td{
     font-family: monospace, sans-serif;
     font-weight: 400;
@@ -74,6 +77,7 @@ form h5{
     display: flex;
     justify-content: space-around;
     margin-top: 7%;
+    gap: 30px;
 }
 form label{
     font-weight: 700;
