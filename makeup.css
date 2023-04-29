@@ -37,7 +37,14 @@ body{
     justify-items: right;
     margin:1%;
 }
-
+.card-image{
+    width: 300px;
+    height:200px;
+}
+.card-image2{
+    width: 400px;
+    height:200px;
+}
 .my-nav h4{
     padding:10px;
     margin-left: 10px;
@@ -47,7 +54,7 @@ body{
     border-radius:7px;
 }
 .my-nav button{
-    background-color: black;
+    /* background-color: black; */
     margin-right: 50px;
 }
 
