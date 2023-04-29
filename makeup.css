@@ -1,0 +1,91 @@
+body{
+    background-color: black;
+}
+.card{
+    background-color: rgb(240, 216, 216);
+    padding:50px;
+}
+.card-detail-1{
+    background-color:red; 
+    padding:10px;
+    border-radius:10px;
+}
+
+.card-detail-2{
+    background-color: violet; padding:10px; font-weight:700; border-radius: 10px; color:black;
+}
+.parent h1{
+    background-color: black;
+    padding:10px;
+    border-radius: 15px;
+    color:yellow;
+    font-family: cursive;
+    font-weight: 700;
+    text-decoration: underline;
+    text-align: center;
+    /* margin-top:-50px; */
+}
+
+/* navbar styling */
+.my-nav{
+    width: 98%;
+    background-color: yellow;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
+    display: flex;
+    position: static;
+    justify-content: space-around;
+    justify-items: right;
+    margin:1%;
+}
+
+.my-nav h4{
+    padding:10px;
+    margin-left: 10px;
+    font-weight: 700;
+    background-color:black;
+    color:yellow;
+    border-radius:7px;
+}
+.my-nav button{
+    background-color: black;
+    margin-right: 50px;
+}
+
+table th{
+    font-family: cursive, sans-serif;
+    font-weight: 700;
+}
+table td{
+    font-family: monospace, sans-serif;
+    font-weight: 400;
+    color: blue;
+}
+form h5{
+    text-align: center;
+}
+.btn-operate{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 7%;
+}
+form label{
+    font-weight: 700;
+}
+::placeholder{
+    font-family: monospace, sans-serif;
+    font-weight: 700;
+}
+.inpt-fld{
+    font-weight: 500;
+}
+.copyright{
+    margin:5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-top: 2px grey solid;
+    color:white;
+}
+.copyright a{
+    margin-top: 2%;
+}
