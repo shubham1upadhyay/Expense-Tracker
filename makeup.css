@@ -36,7 +36,6 @@ body{
     justify-content: space-around;
     justify-items: right;
     margin:1%;
-    position: sticky;
 }
 .card-image{
     width: 400px;
