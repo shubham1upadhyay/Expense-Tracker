@@ -157,12 +157,13 @@ form label{
   }  
   
   .alert-1 {
-    padding: 20px;
+    /* padding: 20px; */
     background-color: whitesmoke;
     color: red;
     margin-bottom: 15px;
     font-size: 16px;
     font-weight: 700;
+    position: fixed;
   }
   .alert-1 img{
     border-radius: 100px;
