@@ -12,8 +12,8 @@ function renderEntries() {
                 <td>${entry.desc}</td>
                 <td>${entry.expense_type}</td>
                 <td>
-                <button onclick="editEntry(${index})" type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">Edit</button>
-                <button onclick="deleteEntry(${index})" type="button" class="btn btn-danger">Delete</button>
+                <button onclick="editEntry(${index})" type="button" class="btn btn-outline-warning btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal">Edit</button>
+                <button onclick="deleteEntry(${index})" type="button" class="btn btn-outline-danger btn-sm">Delete</button>
                 </td>
             </tr>
         `;
