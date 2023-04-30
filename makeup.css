@@ -55,14 +55,14 @@ body{
 }
 
 table th{
-    font-family: cursive, sans-serif;
+    /* font-family: cursive, sans-serif; */
     font-weight: 700;
 }
 .my-table{
     width: 100%;
 }
 table td{
-    /* font-family: monospace, sans-serif; */
+    font-family: monospace, sans-serif;
     font-weight: 400;
     color: white;
 }
@@ -84,6 +84,15 @@ form label{
 }
 .inpt-fld{
     font-weight: 500;
+}
+.offcanvas-title{
+    background-color: magenta;
+    padding:3px;
+    font-weight:700;
+    text-decoration: underline;
+    width:300px;
+    text-align:center;
+    border-radius:10px;
 }
 .copyright{
     margin:5%;
