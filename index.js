@@ -1,20 +1,20 @@
-// floating button function
-var floatingBtn = document.querySelector('.floating-btn');
-floatingBtn.addEventListener('click', function() {
-  // Add your functionality here
-});
+// // floating button function
+// var floatingBtn = document.querySelector('.floating-btn');
+// floatingBtn.addEventListener('click', function() {
+//   // Add your functionality here
+// });
 
 
-// Get the alert element
- var alert = document.getElementsByClassName("newAlert")[0];
+// // Get the alert element
+//  var alert = document.getElementsByClassName("newAlert")[0];
 
- // Get the close button
- var close = document.getElementsByClassName("newCloseBtn")[0];
+//  // Get the close button
+//  var close = document.getElementsByClassName("newCloseBtn")[0];
  
- // Close the alert when the close button is clicked
- close.onclick = function() {
-   alert.style.display = "none";
- }
+//  // Close the alert when the close button is clicked
+//  close.onclick = function() {
+//    alert.style.display = "none";
+//  }
 
 // Check if local storage has any entries, else set to empty array
 let entryList = JSON.parse(localStorage.getItem("entryList")) || [];
