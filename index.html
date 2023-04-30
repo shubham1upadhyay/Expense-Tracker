@@ -39,8 +39,15 @@
                 </ul>
                 <span class="navbar-text">
                 <button type="button" class="btn btn-outline-info bg-dark" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="hideupdate()">Create New</button>
-                <button type="button" class="btn btn-outline-light bg-dark text-info" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">See Log</button>
-                </span>
+                <button type="button" class="btn btn-outline-info bg-dark" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">See Log</button>
+                <button class="btn btn-outline-info bg-dark" onclick="showAlert()">Monthly Statement</button>
+                <div class="alert">
+                <div class="alert-content">
+                  Will be updated soon
+                </div>
+                <span class="closebtn" onclick="closeAlert()">&times;</span>
+              </div>  
+              </span>
               </div>
             </div>
           </nav>
@@ -58,7 +65,7 @@
             <div class="parent container">
                 <div class="">
                    <div class="card-body">
-                 <form class="p-2">
+                 <form class="">
                    <input type="hidden" id="id" />
        
                    <div class="mb-3 mt-5">
@@ -164,8 +171,14 @@
   </div>
 </div>
 
-
 <!-- main-page-content -->
+
+<div class="alert-1">
+  <span class="closebtn-1">&times;</span>
+  <img src="./img/new-banner-pic.avif" alt="wow-amazing" width="150">
+  New feature added !, Now you can add and track your records month wise !, Just go and check the menu link above to get access.
+</div>
+
 
 <div class="border-0">
     <div class="text-light mb-3 mt-5">

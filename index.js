@@ -123,3 +123,24 @@ function deleteEntry(index) {
     alert("Data deleted successfully");
     renderEntries();
 }
+
+function showAlert() {
+    var alert = document.getElementsByClassName("alert")[0];
+    alert.style.display = "flex";
+  }
+  function closeAlert() {
+    var alert = document.getElementsByClassName("alert")[0];
+    alert.style.display = "none";
+  }
+
+  // Get the alert element
+var alert = document.getElementsByClassName("alert-1")[0];
+
+// Get the close button
+var close = document.getElementsByClassName("closebtn-1")[0];
+
+// Close the alert when the close button is clicked
+close.onclick = function() {
+  alert.style.display = "none";
+}
+
