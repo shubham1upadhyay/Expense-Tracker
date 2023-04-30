@@ -28,13 +28,8 @@ body{
 
 /* navbar styling */
 .my-nav{
-    width: 98%;
-    background-color: yellow;
-    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
-    display: flex;
-    position: static;
-    justify-content: space-around;
-    justify-items: right;
+    background-color: rgb(119, 119, 65);
+    box-shadow: 0 3px 20px rgba(113, 245, 110, 0.2);
     margin:1%;
 }
 .card-image{
@@ -48,10 +43,6 @@ body{
     background-color:black;
     color:yellow;
     border-radius:7px;
-}
-.my-nav button{
-    /* background-color: black; */
-    margin-right: 50px;
 }
 
 table th{
@@ -185,4 +176,31 @@ form label{
   .main-content{
     margin-top: 150px;
   }
+  
+  /* floating-button styling */
+  .floating-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    background-color: #f44336;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .floating-btn button {
+    font-size: 44px;
+    line-height: 38px;
+    font-weight: 700;
+    text-decoration: none;
+    outline: none;
+  }
+  
+  .floating-btn:hover {
+    background-color: green;
+  }
+  
   
