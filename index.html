@@ -39,13 +39,13 @@
                 </ul>
                 <span class="navbar-text">
                 <button type="button" class="btn btn-outline-info bg-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">Create New</button>
-                <button type="button" class="btn btn-outline-light bg-dark text-info" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">See Log</button>
+                <button type="button" class="btn btn-outline-light bg-dark text-info" data-bs-toggle="modal" data-bs-target="#staticBackdrop">See Log</button>
                 </span>
               </div>
             </div>
           </nav>
   
-  <!--Create new modal -->
+  <!--Create new page -->
   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-xl">
       <div class="modal-content">
@@ -141,27 +141,33 @@
   </div>
 
 
-<!-- LOG MODAL -->
-<div class="offcanvas offcanvas-bottom offcanvas-lg" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
-  <div class="offcanvas-header">
-    <h5 class="offcanvas-title" id="offcanvasBottomLabel">Your Entries</h5>
-    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-  </div>
-  <div class="offcanvas-body small">
-    <table id="table" class="table my-table table-dark table-hover">
-        <thead>
-          <tr>
-            <th>S.No.</th>
-            <th>Expense Amount</th>
-            <th>Description</th>
-            <th>Category</th>
-            <th>Actions</th>
-          </tr>
-        </thead>
-        <tbody id="entry-list"></tbody>
-      </table>
+<!-- log page -->
+
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-fullscreen">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">Your entries ...</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <table id="table" class="table my-table table-dark table-hover">
+          <thead>
+            <tr>
+              <th>S.No.</th>
+              <th>Expense Amount</th>
+              <th>Description</th>
+              <th>Category</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody id="entry-list"></tbody>
+        </table>
+      </div>
+    </div>
   </div>
 </div>
+
 
 <!-- main-page-content -->
 
