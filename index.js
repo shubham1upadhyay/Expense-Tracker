@@ -49,9 +49,14 @@ function addEntry() {
     document.getElementById("desc").value = "";
     // document.getElementById("success").innerHTML = "Data added successfully";
     alert("Data added successfully")
-
     // Render updated list of entries
     renderEntries();
+
+    
+}
+
+function hideupdate(){
+    document.getElementById("update-btn").style.display = "none";
 }
 
 // Function to edit existing entry in local storage

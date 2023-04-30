@@ -38,7 +38,7 @@
                   </li>
                 </ul>
                 <span class="navbar-text">
-                <button type="button" class="btn btn-outline-info bg-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">Create New</button>
+                <button type="button" class="btn btn-outline-info bg-dark" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="hideupdate()">Create New</button>
                 <button type="button" class="btn btn-outline-light bg-dark text-info" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">See Log</button>
                 </span>
               </div>
@@ -86,10 +86,10 @@
                      <select id="expense_type" class="form-select inpt-fld">
                        <option value="">Please choose an option</option>
                        <option value="Recharge">Recharge</option>
+                       <option value="Grocery">Grocery</option>
                        <option value="Movie">Movie</option>
                        <option value="Game">Game</option>
                        <option value="Party">Party</option>
-                       <option value="Game">Game</option>
                        <option value="Lent Money">Lent Money</option>
                        <option value="EMI">EMI</option>
                        <option value="Shopping">Shopping</option>
@@ -122,6 +122,7 @@
                      type="button"
                      class="btn btn-secondary"
                      data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop"
+
                    >
                      Update ...
                    </button>
