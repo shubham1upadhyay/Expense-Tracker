@@ -178,7 +178,7 @@ form label{
   }
   
   /* floating-button styling */
-  .floating-btn {
+  .floating-btn-1 {
     position: fixed;
     bottom: 20px;
     right: 20px;
@@ -191,15 +191,15 @@ form label{
     cursor: pointer;
   }
   
-  .floating-btn button {
+  .floating-btn-1{
     font-size: 44px;
-    line-height: 38px;
+    line-height: 30px;
     font-weight: 700;
     text-decoration: none;
     outline: none;
   }
   
-  .floating-btn:hover {
+  .floating-btn-1:hover {
     background-color: green;
   }
 
@@ -216,9 +216,9 @@ form label{
     cursor: pointer;
   }
   
-  .floating-btn-2 button {
+  .floating-btn-2{
     font-size: 44px;
-    line-height: 38px;
+    line-height: 30px;
     font-weight: 700;
     text-decoration: none;
     outline: none;
