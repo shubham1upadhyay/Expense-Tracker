@@ -109,7 +109,7 @@ form label{
 #exampleModal, #offcanvasTop{
     animation: slide-down 0.5s ease;
 }
-.alert {
+.alert{
     position: fixed;
     top: 0;
     left: 0;
@@ -156,8 +156,9 @@ form label{
     color: #333;
   }  
   
-  .alert-1 {
+  .newAlert{
     /* padding: 20px; */
+    margin-left:15px;
     background-color: whitesmoke;
     color: red;
     margin-bottom: 15px;
@@ -165,10 +166,10 @@ form label{
     font-weight: 700;
     position: fixed;
   }
-  .alert-1 img{
+  .newAlert img{
     border-radius: 100px;
   }
-  .closebtn-1 {
+  .newCloseBtn{
     color: black;
     font-weight: bold;
     float: right;
@@ -178,7 +179,7 @@ form label{
     transition: 0.3s;
   }
   
-  .closebtn-1:hover {
+  .newCloseBtn:hover {
     color: red;
   }
   
