@@ -105,6 +105,7 @@ function updateEntry() {
     renderEntries();
 }
 
+
 // Function to delete existing entry from local storage
 function deleteEntry(index) {
     // Remove entry at specified index from list
