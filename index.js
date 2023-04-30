@@ -4,6 +4,11 @@ floatingBtn.addEventListener('click', function() {
   // Add your functionality here
 });
 
+var floatingBtn = document.querySelector('.floating-btn-2');
+floatingBtn.addEventListener('click', function() {
+  // Add your functionality here
+});
+
 
 // // Get the alert element
 //  var alert = document.getElementsByClassName("newAlert")[0];
