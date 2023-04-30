@@ -1,8 +1,8 @@
-// // floating button function
-// var floatingBtn = document.querySelector('.floating-btn');
-// floatingBtn.addEventListener('click', function() {
-//   // Add your functionality here
-// });
+// floating button function
+var floatingBtn = document.querySelector('.floating-btn');
+floatingBtn.addEventListener('click', function() {
+  // Add your functionality here
+});
 
 
 // // Get the alert element
