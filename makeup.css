@@ -182,4 +182,7 @@ form label{
   .newCloseBtn:hover {
     color: red;
   }
+  .main-content{
+    margin-top: 150px;
+  }
   
