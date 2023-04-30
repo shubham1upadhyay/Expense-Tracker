@@ -202,5 +202,31 @@ form label{
   .floating-btn:hover {
     background-color: green;
   }
+
+  .floating-btn-2 {
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    background-color: #29022b;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .floating-btn-2 button {
+    font-size: 44px;
+    line-height: 38px;
+    font-weight: 700;
+    text-decoration: none;
+    outline: none;
+  }
+  
+  .floating-btn-2:hover {
+    background-color: rgb(228, 240, 162);
+    color:black;
+  }
   
   
